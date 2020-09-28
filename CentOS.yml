@@ -1,0 +1,4 @@
+- name: Upgrade all packages on CentOS 
+  yum:
+    name: '*'
+    state: latest

@@ -1,0 +1,11 @@
+---
+- name: Centos
+  my_dictionary:
+     my_distro: Centos
+     my_major: 7
+#    my_file: CentOS-7.yml
+ 
+- name: Install the latest version of Apache
+  yum:
+    name: htop
+    state: latest
